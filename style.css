@@ -184,3 +184,11 @@ img {
 .em-breve p {
     font-size: 0.7em;
 }
+
+.icones{
+   
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+}
