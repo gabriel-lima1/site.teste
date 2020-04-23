@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 
 /* ========== RESET ========== */
 * {
@@ -57,7 +57,7 @@ img {
     width: 75%;
     height: 100%;
     position: fixed;
-    background-color: rgba(0, 0, 0, .9);
+  aaa  background-color: rgba(0, 0, 0, .9);
     top: 0;
     left: 0;
 }

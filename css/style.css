@@ -1,4 +1,4 @@
-/* RESET */
+﻿/* RESET */
 * {
     margin: 0; 
     padding: 0; 
@@ -15,7 +15,7 @@ a {
     color:white;
 }
 body {
-    background-color: rgba(0, 0, 0, 0.400);
+    background-color:rgba(0, 0, 0, 0.911);
 }
 img{
     max-width: 100%;
@@ -106,5 +106,78 @@ height: 1000px;
     position: relative;
     
 }
+.banner span{
+    font-size: 0;
+}
+
+.artigos{
+    width:100%; 
+    background-color: rgba(0, 0, 0, 0.400); 
+    border-radius: 7px; 
+    margin-bottom:3%;
+    padding: 3% 4%;
 
 
+}
+.artigos img{
+    border: 1px solid rgb(0,0,0, 0.4);
+    border-radius: 5px;
+    display:inline-flexbox;
+
+}
+.leon {
+    
+}
+.tmp {
+    
+    float:right
+}
+
+.artigos img:hover {
+    border: 2px solid rgb(0,0,0, 0.6);
+    transform: scale(1.08);
+    background-color: black;
+
+}
+
+.inner{
+    
+}
+
+.inner a{
+    font-size: 1.5em; 
+    color: white; 
+    font-weight: 700;
+    width: 20% !important;
+    position: absolute;
+    top:140%;
+    left: 20%;
+}
+inner a:hover{
+    font-size: 1.9;
+}
+
+@media only screen and (min-width: 1000px) {
+    .inner a{
+        font-size: 3em;
+        margin-left: 7%;
+    }
+  }
+
+  .linha {
+      width: 54%;
+      position: absolute;
+      top: 130%;
+      left: 0%;
+      height: 30%;
+      background-color: none;
+      z-index: 10;
+     margin-left: -4.24%;
+        border-right:10px solid white;
+        font-size: 0px;
+        
+      
+  }
+  .linha span {
+      text
+  }
