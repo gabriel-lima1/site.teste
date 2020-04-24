@@ -19,8 +19,7 @@ body {
 }
 img{
     max-width: 100%;
-    width: 40%;
-    height: 20%;
+    
 }
 section{
 height: 1000px;
@@ -36,7 +35,8 @@ height: 1000px;
     background-color: rgba(0, 0, 0, 0.911) !important ;
 }
 .logo {
-    
+    width: 60%;
+    height: 20%;
 
     
 
@@ -101,10 +101,14 @@ height: 1000px;
     margin-right: auto;
     margin-left: auto;
     padding: 20% 0%;
+    
     margin-top: -1%;
     z-index: 1;
     position: relative;
     
+}
+.banner:hover{
+    filter: brightness(1.1);
 }
 .banner span{
     font-size: 0;
@@ -116,32 +120,34 @@ height: 1000px;
     border-radius: 7px; 
     margin-bottom:3%;
     padding: 3% 4%;
-
+    display:flex;
+    justify-content: center;
+    justify-items: center;
 
 }
 .artigos img{
     border: 1px solid rgb(0,0,0, 0.4);
     border-radius: 5px;
-    display:inline-flexbox;
+    
 
 }
 .leon {
-    
+    width: 30%;
 }
 .tmp {
-    
+    padding: 0% 2% !important;
+    width:30%;
     float:right
+}
+.enemy {
+    width: 30%;
 }
 
 .artigos img:hover {
     border: 2px solid rgb(0,0,0, 0.6);
     transform: scale(1.08);
     background-color: black;
-
-}
-
-.inner{
-    
+    transition: .5s;
 }
 
 .inner a{
@@ -157,27 +163,18 @@ inner a:hover{
     font-size: 1.9;
 }
 
-@media only screen and (min-width: 1000px) {
+@media (min-width: 600px) {
     .inner a{
         font-size: 3em;
         margin-left: 7%;
+    
     }
-  }
 
-  .linha {
-      width: 54%;
-      position: absolute;
-      top: 130%;
-      left: 0%;
-      height: 30%;
-      background-color: none;
-      z-index: 10;
-     margin-left: -4.24%;
-        border-right:10px solid white;
-        font-size: 0px;
-        
-      
-  }
-  .linha span {
-      text
-  }
+  @media (max-width:800px){
+      .leon {width: 30%;}
+      .tmp {width: 30%;}
+      .enemy{width: 30%;}
+      .banner {
+          height: 10px;
+      }
+    }
